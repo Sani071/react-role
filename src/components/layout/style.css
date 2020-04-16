@@ -1,0 +1,61 @@
+.navbar_wrapper {
+    background: rgb(68, 120, 231);
+    width: 100%;
+    height: 50px;
+    position: relative;
+}
+
+.navbar_wrapper>div {
+    display: flex;
+    justify-content: start;
+    padding-left: 20px;
+    align-items: center;
+    align-content: center;
+    height: 50px;
+}
+
+.navbar_wrapper>div>h1 {
+    color: white;
+    font-weight: 700;
+    font-size: 24px;
+    font-family: 'Black Ops One', cursive;
+}
+
+.sidebar_wrapper {
+    margin-top: .5px;
+    background: rgb(68, 120, 231);
+    width: 13%;
+    height: 92vh;
+    /* margin-top: 37px; */
+}
+
+.sidebar_wrapper_menuList {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.sidebar_wrapper_menuList .menu_item {
+    padding: 10px;
+    color: rgb(238, 216, 216);
+    cursor: pointer;
+    border-bottom: 1px solid transparent;
+    transition: .5s all ease-in-out;
+}
+
+.sidebar_wrapper_menuList .menu_item:hover {
+    border-bottom: 1px solid rgb(248, 248, 248);
+    color: rgb(255, 255, 255);
+}
+
+.content_wrapper {
+    width: 86%;
+    height: 91vh;
+    /* background: salmon; */
+    position: absolute;
+    top: 52px;
+    left: 14%;
+}

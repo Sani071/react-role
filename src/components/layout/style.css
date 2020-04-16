@@ -7,11 +7,19 @@
 
 .navbar_wrapper>div {
     display: flex;
-    justify-content: start;
-    padding-left: 20px;
+    justify-content: space-between;
+    padding: 0 20px;
     align-items: center;
     align-content: center;
     height: 50px;
+}
+
+.navbar_wrapper>div>h3 {
+    cursor: pointer;
+    color: white;
+    font-weight: 700;
+    font-size: 22px;
+    font-family: 'Black Ops One', cursive;
 }
 
 .navbar_wrapper>div>h1 {

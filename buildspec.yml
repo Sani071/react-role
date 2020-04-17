@@ -16,10 +16,15 @@ phases:
       - yarn
   build:
     commands:
-    #   - echo Testing...
-    #   - yarn test
+      - echo Testing...
+      - yarn test
       - echo Building...
       - yarn build
+  post_build:
+    commands:
+            - aws s3 rm s3://www.astha.online --recursive
+            - aws s3 cp build/ s3://www.astha.online --recursive
+            - echo Build completed on `date`
 artifacts:
   files:
     - "**/*"

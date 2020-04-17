@@ -38,7 +38,7 @@ function LoginPage() {
                     <div className="col-lg-6 col-md-8 ">
                         <div className="login-box p-2">
                             <div className="col-lg-12 login-title">
-                                React Role App
+                                React Role App v1
                             </div>
 
                             <div className="col-lg-12 login-form">

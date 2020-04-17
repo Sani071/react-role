@@ -1,7 +1,7 @@
 version: 0.1
 environment_variables:
     plaintext:
-        S3_BUCKET: "jakob.pennington.io"
+        S3_BUCKET: "www.astha.online"
 phases:
     install:
         commands:
@@ -15,10 +15,10 @@ phases:
     post_build:
          commands:
             - aws s3 rm s3://www.astha.online --recursive
-            - aws s3 cp dist/PenningtonIO/ s3://www.astha.online --recursive
+            - aws s3 cp build/PenningtonIO/ s3://www.astha.online --recursive
             - echo Build completed on `date`
 artifacts:
     files:
         - '**/*'
-    base-directory: 'dist*'
+    base-directory: 'build*'
     discard-paths: yes

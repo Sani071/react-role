@@ -1,24 +1,27 @@
-version: 0.1
-environment_variables:
-    plaintext:
-        S3_BUCKET: "www.astha.online"
+version: 0.2
+
 phases:
-    install:
-        commands:
-            - echo Installing source NPM dependencies...
-            - npm install
-            # - npm install -g @angular/cli
-    build:
-        commands:
-            - echo Build started on `date`
-            - npm run build -p
-    post_build:
-         commands:
-            - aws s3 rm s3://www.astha.online --recursive
-            - aws s3 cp build/PenningtonIO/ s3://www.astha.online --recursive
-            - echo Build completed on `date`
+  install:
+    commands:
+      - echo Installing Node 12...
+      - curl -sL https://deb.nodesource.com/setup_12.x | bash -
+      - apt install -y nodejs
+      - echo Installing Yarn...
+      - curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add -
+      - echo "deb https://dl.yarnpkg.com/debian/ stable main" | tee /etc/apt/sources.list.d/yarn.list
+      - apt install --no-install-recommends yarn
+  pre_build:
+    commands:
+      - echo Installing dependencies...
+      - yarn
+  build:
+    commands:
+    #   - echo Testing...
+    #   - yarn test
+      - echo Building...
+      - yarn build
 artifacts:
-    files:
-        - '**/*'
-    base-directory: 'build*'
-    discard-paths: yes
+  files:
+    - "**/*"
+  discard-paths: no
+  base-directory: dist

@@ -10,7 +10,7 @@ export default function Navbar() {
         <div className="navbar_wrapper">
             <div>
                 <h1>
-                    React Role App
+                    React Role App v1
             </h1>
                 <h3 onClick={ e => dispatch(loginAction(false)) }>
                     Logout

@@ -21,8 +21,11 @@
     width: 50%;
     background: #1A2226;
     text-align: center;
-    box-shadow: -9px 8px 12px rgb(142, 142, 142);
-    transform: translateX(50%, -0%) !important;
+    -webkit-box-shadow: -9px 8px 12px rgb(142, 142, 142);
+            box-shadow: -9px 8px 12px rgb(142, 142, 142);
+    -webkit-transform: translateX(50%, -0%) !important;
+        -ms-transform: translateX(50%, -0%) !important;
+            transform: translateX(50%, -0%) !important;
     border-radius: 8px
 }
 
@@ -94,7 +97,8 @@
 
 .login-forminput:focus {
     outline: none;
-    box-shadow: 0 0 0;
+    -webkit-box-shadow: 0 0 0;
+            box-shadow: 0 0 0;
 }
 
 .login-form label {

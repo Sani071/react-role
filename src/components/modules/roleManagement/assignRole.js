@@ -46,10 +46,8 @@ export default function Role(props) {
                 autoClose={ 4000 }
                 position="bottom-left"
             />
-            {/* Same as */ }
             <div className="d-flex justify-content-between mb-3">
                 <h4>Assign Role to User</h4>
-                {/* <button className="btn btn-secondary">Create New</button> */ }
             </div>
             <hr className="mb-3" />
             <div className="row">

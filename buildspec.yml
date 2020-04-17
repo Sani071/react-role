@@ -1,0 +1,24 @@
+version: 0.1
+environment_variables:
+    plaintext:
+        S3_BUCKET: "jakob.pennington.io"
+phases:
+    install:
+        commands:
+            - echo Installing source NPM dependencies...
+            - npm install
+            # - npm install -g @angular/cli
+    build:
+        commands:
+            - echo Build started on `date`
+            - npm run build -p
+    post_build:
+         commands:
+            - aws s3 rm s3://www.astha.online --recursive
+            - aws s3 cp dist/PenningtonIO/ s3://www.astha.online --recursive
+            - echo Build completed on `date`
+artifacts:
+    files:
+        - '**/*'
+    base-directory: 'dist*'
+    discard-paths: yes

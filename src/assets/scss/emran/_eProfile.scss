@@ -1,0 +1,166 @@
+.header-top-right ul.htr-list li.n-sitting span {
+    cursor: pointer;
+}
+
+.header-top-right ul.htr-list li.n-sitting span:hover i {
+    color: #fff;
+}
+
+.profile-banner-content .ppam-photo-overlay-area {
+    box-shadow: 0px 0px 30px 4px rgba(0, 0, 0, 0.25);
+}
+
+a.profile-btn.file-input-handler input[type="file"] {
+    cursor: pointer;
+}
+
+.css-bdjl4r {
+    border-radius: 50%;
+}
+
+.header-top-left a img {
+    height: 32px;
+}
+
+.header-con-inner {
+    padding: 2px;
+}
+
+.search-area-input-icon input {
+    padding: 6px 16px;
+}
+
+.search-area-input-icon i {
+    top: 10px;
+}
+
+nav.news-nav-two {
+    padding: 14px 0;
+}
+
+ul.news-left-list li {
+    background: #e6ecf5;
+}
+
+.newsfeed-left {
+    background: #f7faff;
+}
+
+.newsfeed-right {
+    background: #f7faff;
+}
+
+.nfr-bottom-header {
+    background: #00465f;
+}
+
+ul.news-left-list li {
+    padding: 12px 20px;
+    // border-radius: 5px;
+    margin-bottom: 6px;
+}
+
+ul.news-left-list li:first-child {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+ul.news-left-list li:last-child {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+a.default-btn {
+    box-shadow: 0px 2px 26px rgba(0, 70, 95, 0.1);
+}
+
+.cover-photo-area a.upload-btn {
+    color: #00465f;
+    transition: ease-in-out 0.3s;
+}
+
+.cover-photo-area:hover a.upload-btn:hover {
+    background: #00465f;
+    color: #fff;
+}
+
+.profile-banner-content .ppam-photo-area .ppam-photo-overlay-area {
+    color: #00465f;
+}
+
+.profile-banner-content .ppam-photo-area:hover .ppam-photo-overlay-area:hover {
+    background: #00465f;
+    color: #fff;
+}
+
+.cover-photo-area {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 0px;
+    // background: linear-gradient(0deg, #EFF3FE, #EFF3FE), #EBEBEB;
+    background: #dde2ef;
+    box-shadow: inset 0px 4px 10px rgba(0, 70, 95, 0.25);
+    
+}
+.profile-photo-area-main .ppam-inner {
+    background: #dde2ef;
+    border: 5px solid #ffffff;
+    box-shadow: -2px -2px 25px -10px rgba(1, 53, 72, 0.3);
+}
+.profile-banner-content .ppam-photo-overlay-area {
+    box-shadow: 0px 0px 30px 4px rgb(224, 224, 224,);
+}
+.newsfeed-left {
+    margin-top: 20px;
+}
+.newsfeed-right {
+    margin-top: 20px;
+}
+
+.find-friend-main-area-modified {
+    width: 590px;
+}
+.find-friend-item .find-friend-item-inner .flag {
+    left: 4px !important;
+    top: 2px !important;
+}
+.find-friend-item .find-friend-item-inner .close-btn {
+    right: 4px !important;
+    top: 2px !important;   
+}
+.find-friend-item .find-friend-item-inner .find-friend-item-thumb {
+    background: #DDE2EF;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+.find-friend-item .find-friend-item-inner .find-friend-item-top img {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.find-friend-item .find-friend-item-inner {
+box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.08);
+}
+.find-friend-main-area-inner {
+    background:#f7faff;
+}
+.fffb-overlay .fffb-overlay-inner:after {
+    border-top: 1px solid #ededed;
+    border-left: 1px solid #ededed;
+    border-bottom: 0 !important;
+    border-right:0 !important;
+    left: 50% !important;
+    transform: translateX(-50%) rotate(45deg) !important;
+}
+.find-friend-item {
+    padding: 5px 10px !important;
+}
+.find-friend-main-area-inner {
+    padding: 15px !important;
+}
+.find-friend-item .find-friend-item-inner .find-friend-item-btn-area .find-friend-follow-btn {
+    background: #30be93 !important;
+}
+.find-friend-item .find-friend-item-inner .find-friend-item-btn-area .find-friend-follow-btn i {
+    color: #fff !important;
+}

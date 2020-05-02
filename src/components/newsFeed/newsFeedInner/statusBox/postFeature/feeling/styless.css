@@ -1,0 +1,41 @@
+.f-list-item {
+  display: flex;
+  align-items: center;
+  padding: 0 12px;
+  height: 40px;
+  transition: .3s all ease;
+  cursor: pointer;
+}
+
+.f-list-item.active {
+  background: #DDE2EF;
+}
+
+.f-list-item.active {
+  position: relative;
+}
+
+.f-list-item p {
+  font-size: 14px;
+  margin-right: 12px !important;
+  color: #263251;
+}
+
+.f-list-item p:last-child {
+  font-size: 14px !important;
+}
+
+.f-list-item:hover {
+  cursor: pointer;
+}
+
+.f-list-item-remove {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  text-align: center;
+  color: white;
+  background: #263251;
+  border-radius: 50%;
+  right: 10px;
+}

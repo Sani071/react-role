@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+  font-family: roboto;
+}
+
+@import "./fonts";
+@import "./_variable.scss";
+
+@import "./_custom.scss";
+
+@import "./_customClass.scss";
+
+@import "./_home.scss";
+@import "./_auth.scss";
+@import "./emran/eProfile.scss";
+
+@import "./_newsFeedMain.scss";
+@import "./_profile.scss";
+@import "./_findFriend.scss";
+// Responsive
+@import "./responsive/globalResponsive.scss";

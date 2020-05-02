@@ -1,15 +1,14 @@
-import React from 'react';
-import './App.css';
-import IndexLayout from './view/layout';
-import LoginPage from './components/authintication/loginForm';
-import { useSelector } from "react-redux";
-
+import React from "react";
+import "@fortawesome/fontawesome-free/css/all.min.css";
+import "bootstrap-css-only/css/bootstrap.min.css";
+import "mdbreact/dist/css/mdb.css";
+import "./App.scss";
+import View from "./view/View";
 
 function App() {
-  const isAuth = useSelector(state => state.auth);
   return (
     <div className="App">
-      { isAuth ? <IndexLayout/>: <LoginPage/> }
+      <View />
     </div>
   );
 }

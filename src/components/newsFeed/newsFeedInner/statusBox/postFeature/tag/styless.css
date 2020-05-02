@@ -1,0 +1,16 @@
+/* .tb-list-item {
+  display: flex;
+  align-items: center;
+  padding: 0 12px;
+  height: 40px;
+  transition: .3s all ease;
+  cursor: pointer;
+}
+
+.tb-list-item.active, .tb-list-item:hover {
+  background: #DDE2EF;
+}
+
+.tb-list-item:hover {
+  cursor: pointer;
+} */

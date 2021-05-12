@@ -104,7 +104,7 @@
     "socket.io-client": "^2.3.0",
     "spherical-geometry-js": "^2.0.0",
     "style-loader": "^0.23.1",
-    "swiper": "^4.5.1",
+    "swiper": "^6.5.1",
     "terser-webpack-plugin": "1.2.3",
     "throttle-debounce": "^2.1.0",
     "ts-pnp": "1.1.2",
